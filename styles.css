@@ -1,0 +1,135 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-image:url('https://img.freepik.com/free-vector/happy-new-year-background-with-clock_1048-3405.jpg?ga=GA1.1.1609207044.1724568304&semt=ais_hybrid');
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .stopwatch-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    border-color: #333;
+  }
+  
+  .icon {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .display {
+    font-size: 2rem;
+    margin: 20px 0;
+    background: #e6f7ff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #007bff;
+    color: #fff;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .btn:hover:not(:disabled) {
+    background: #0056b3;
+  }
+  
+  .laps {
+    margin-top: 20px;
+  }
+  
+  .laps h2 {
+    font-size: 1.2rem;
+  }
+  
+  #lapList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #lapList li {
+    background: #e6f7ff;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px 0;
+  }
+ /* Notes Section */
+.notes {
+    margin-top: 20px;
+  }
+  
+  .notes h2 {
+    font-size: 1.2rem;
+  }
+  
+  #noteList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #noteList li {
+    display: flex;
+    flex-direction: column;
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .note-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .note-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 0.9rem;
+  }
+  #export .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #export .btn:hover {
+    background: #45a049;
+  }
+       
